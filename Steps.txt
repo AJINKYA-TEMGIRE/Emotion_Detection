@@ -3,3 +3,6 @@
 3. Deleted unnecessary files
 4. src/models = src/model
 5. Git remote and push
+6. We have to download the mlflow and dagshub so make python environment and activate it.
+7. Install mlflow and dagshub
+8. Test the Mlflow and Dagshub  
