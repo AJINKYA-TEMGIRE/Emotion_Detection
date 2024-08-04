@@ -1,0 +1,5 @@
+1. Created Repository on github
+2. Cookie Cutter
+3. Deleted unnecessary files
+4. src/models = src/model
+5. Git remote and push
