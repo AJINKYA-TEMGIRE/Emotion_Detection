@@ -7,3 +7,7 @@
 7. Install mlflow and dagshub
 8. Test the Mlflow and Dagshub  
 9. Push the existing code to repo (add env folder to .gitignore)
+10. Plan the experiments (This is just a case study to use all the concepts, so will not be focusing much on accuracy)
+11. After each experiment push the code to github 
+
+
