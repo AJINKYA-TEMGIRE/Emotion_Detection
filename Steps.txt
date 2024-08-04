@@ -6,3 +6,4 @@
 6. We have to download the mlflow and dagshub so make python environment and activate it.
 7. Install mlflow and dagshub
 8. Test the Mlflow and Dagshub  
+9. Push the existing code to repo (add env folder to .gitignore)
