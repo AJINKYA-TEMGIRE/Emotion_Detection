@@ -9,5 +9,9 @@
 9. Push the existing code to repo (add env folder to .gitignore)
 10. Plan the experiments (This is just a case study to use all the concepts, so will not be focusing much on accuracy)
 11. After each experiment push the code to github 
+12. dvc init
+13. add dvc remote  (echo %TEMP%) (dvc add remote -d myremote C:\Users\Dell\AppData\Local\Temp)
+14. Set data ingestion (params , dvc yaml)  (test_size)
+
 
 
