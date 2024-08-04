@@ -13,7 +13,7 @@
 13. add dvc remote  (echo %TEMP%) (dvc add remote -d myremote C:\Users\Dell\AppData\Local\Temp)
 14. Set data ingestion (params , dvc yaml)  (test_size)
 15. Then all other steps (Each time dvc repro)
-16. At last also write to register the model.
+16. At last also write to register the model.    (You can make the staging to production on UI)
 
 
 
