@@ -2,7 +2,7 @@ name: CI-Pipeline
 
 on: push
 
-
+68b22b6e60e1b64c1fab9273112d40c17e9b1e81
 jobs:
   project-testing:
     runs-on: ubuntu:latest
@@ -21,6 +21,8 @@ jobs:
          pip install -r requirements.txt
 
       - name: Run pipeline
+        env:
+         CI: ${{ secrets.CI }}
         run: |
          dvc repro
 

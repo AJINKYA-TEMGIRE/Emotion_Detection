@@ -16,6 +16,8 @@
 16. At last also write to register the model.    (You can make the staging to production on UI)
 17. Generate the requirements.txt
 18. Setting up the CI (run dvc , get model , evaluate , testing  , production)
+                      (dvc tokens , because for model evaluation , model registery)
+                      
 
 
 

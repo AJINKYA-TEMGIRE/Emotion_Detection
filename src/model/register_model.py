@@ -6,8 +6,19 @@ import logging
 import os
 import dagshub
 
-mlflow.set_tracking_uri("https://dagshub.com/AJINKYA-TEMGIRE/Emotion_Detection.mlflow")
-dagshub.init(repo_owner='AJINKYA-TEMGIRE', repo_name='Emotion_Detection', mlflow=True)
+dagshub_token = os.getenv("CI")
+if not dagshub_token:
+    raise EnvironmentError("CI environment variable is not set")
+
+os.environ["MLFLOW_TRACKING_USERNAME"] = dagshub_token
+os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
+
+dagshub_url = "https://dagshub.com"
+repo_owner = "AJINKYA-TEMGIRE"
+repo_name = "Emotion_Detection"
+
+# Set up MLflow tracking URI
+mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 
 # logging configuration
 logger = logging.getLogger('model_registration')
