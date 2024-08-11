@@ -20,7 +20,7 @@ def promote_model():
     mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
     client = mlflow.MlflowClient()
 
-    model_name = "my_model"
+    model_name = "Logistic Regression"
     # Get the latest version in staging
     latest_version_staging = client.get_latest_versions(model_name, stages=["Staging"])[0].version
 

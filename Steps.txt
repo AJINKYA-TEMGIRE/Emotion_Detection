@@ -20,7 +20,14 @@
     2. Test (get model , signature , evaluation)
     3. Get to the production
     4. test flask app   (with the hold out test set)
-
+19. Docker file for only flask app with its dependencies like vectorizer
+    (pip install pipreqs)
+    (go to flaskapp and then pipreqs . --force)
+    (docker run -p 8888:5000 -e CI:   emotion)
+20. Run one time and then push it to docker hub
+21. This is the development server, do not use in production
+22. So use the gunicorn
+23. Build again the image with version and again push (But this building and pushing should be through the CI)
 
 
 
