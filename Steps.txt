@@ -18,8 +18,8 @@
 18. Setting up the CI 
     1. DVC
     2. Test (get model , signature , evaluation)
-    3. test flask app   (with the hold out test set)
-    4. Get to the production
+    3. Get to the production
+    4. test flask app   (with the hold out test set)
 
 
 
